@@ -1,0 +1,435 @@
+        body{
+            height: 100%:
+            margin: 0;
+            padding: 0;
+        }    
+
+    /*    banner section*/
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background: url(header.jpg) no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+ 
+        }
+        
+        .logo h1{
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            color: white;
+            padding: 25px;
+        }
+        
+        .banner h1{
+            margin: 0;
+        }
+
+    /*    end of banner section*/
+        
+        
+        
+        
+   /*   hero section  */
+        .hero_section{
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        } 
+        
+        .logo{
+            cursor: pointer;
+        }
+        
+        .hero_title h2{
+            font-size: 32px;
+            font-weight: 400;
+            margin-top: -10px;
+            color: #fff;
+            font-family: 'Lato', sans-serif;
+            
+        }
+        
+        .hero_title h2 span{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        
+        .hero_icons{
+          font-family: 'Lato', sans-serif;
+          font-size: 20px;
+          margin-top: 60px;
+          color: #eae8e8;
+          font-weight: 300;
+          cursor: pointer;   
+        }
+        
+        .hero_icons .ic_section{
+            transition: .3s;
+        }
+        
+        .hero_icons .ic_section:hover{
+            color: #fff;
+        }
+        
+        
+   /*   end of hero section  */
+
+
+        
+/* about section */
+        .about_section{
+            margin: 60px auto 0 auto;
+        }
+        
+        .about_section h2{
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            color: #717171;
+            text-align: center;
+}
+        .about_section p{
+            padding: 0;
+            margin-bottom: 12px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            color: #666;
+            margin-top: 30px;
+        }
+        
+        .about_section .about_img{
+            margin: 40px auto;
+            padding:  50px;
+        }
+        
+/* end of about section */
+        
+        
+        
+        
+        
+/* portfolio section */
+        .portfolio_section{
+            width: 100%:
+        }
+        
+        .portfolio_title{
+            width: 100%;
+            background: #f5f5f5;
+            height: 100%;
+        }
+        
+        .portfolio_title .container{
+            width: 60%;
+            margin: 90px auto 20px auto;
+            padding-top: 28px;
+        }
+        
+        .portfolio_title h2{
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            color: #717171;
+            text-align: center;
+}
+        .portfolio_title p{
+            padding: 0;
+            margin-bottom: 12px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            color: #666;
+            text-align: center;
+        }
+        
+        
+        .portfolio_content{
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .portfolio_content .portfolioImg{
+           padding: 0;
+           position: relative;
+        }
+        
+        .portfolioImg .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(34, 167, 240, 0.88);
+            display: none;
+            transition: display .3s linear;
+        }
+        
+        .portfolioImg .overlay_content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: #fff;
+            display: none;
+            transition: display .3s linear;
+            text-align: center;
+        }
+        
+        .portfolioImg .overlay_content i{
+            border: 1px solid #fff;
+            padding: 10px;
+            border-radius: 6px;
+            transition: .3s;
+        }
+        
+        .portfolioImg .overlay_content i:hover{
+            background: #3c3c3c;
+        }
+        
+        .portfolioImg:hover .overlay{
+            display: block;
+            cursor: pointer;
+        }
+        
+        .portfolioImg:hover .overlay_content{
+            display: block;
+            cursor: pointer;
+        }
+        
+        
+   /*    client section*/
+        
+        .portfolioClientImg{
+            margin-top: 30px;
+            padding: 30px;
+            cursor: pointer;
+        }
+        
+        .portfolioClientImg:nth-child(1){
+            margin-top: -30px;
+            padding: 60px;
+            cursor: pointer;
+        }
+        
+        .portfolioClientImg:nth-child(2){
+            margin-top: -9px;
+            padding: 60px;
+            cursor: pointer;
+        }
+        
+        
+        .portfolioClientImg_sm{
+            margin-top: 16px;
+            cursor: pointer;
+        }
+        
+        .portfolioClientImg_sm:nth-child(1){
+            margin-top: -35px;
+            padding: 27px;
+            cursor: pointer;
+        }
+        
+        .portfolioClientImg_sm:nth-child(2){
+            margin-top: -18px;
+            padding: 24px;
+            cursor: pointer;
+        }
+        
+        
+     /*    Mobile Devices  */
+        .portfolioClientImg_xs{
+            padding: 40px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+        .portfolioClientImg_xs:nth-child(1){
+            padding: 60px;
+            margin-top: -10px;
+            cursor: pointer;
+        }
+        
+        .portfolioClientImg_xs:nth-child(2){
+            margin-top: -70px;
+            padding: 47px;
+            cursor: pointer;
+         
+        }
+        
+         
+   /*   end of client section */       
+        
+/*  end of portfolio section  */
+        
+/* info section  */
+        .info_section{
+            width: 100%;
+            height: 50vh;
+            background: url(sep.jpg) no-repeat center;
+            background-size: cover;
+            background-attachment: fixed; 
+            position: relative;
+        }
+        
+        .info_content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        
+        .info_content h2{
+            font-size: 37px;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+        }
+        
+        .info_content p{
+            font-size: 25px;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-weight: 200;
+        }
+        
+        .btn_style{
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50px;
+            margin-top: 40px;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 14px 28px 13px 28px;
+            transition: .3s;
+            cursor: pointer;
+        }
+        
+        .btn_style:hover{
+            background: white;
+            color: black;
+            border: 2px solid white;
+        }
+        
+         .btn_style_xs {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50px;
+            margin-top: 9px;
+            font-size: 7px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 9px 10px 9px 13px;
+            transition: .3s;
+        }
+        
+        .btn_style_xs:hover{
+            background: white;
+            color: black;
+            border: 2px solid white;
+        }
+        
+/* end of info section  */
+        
+        
+
+        
+/* footer section */
+        .footer_section{
+            width: 100%;
+            height: 100%;
+            background-color: #22A7F0;
+        }
+        
+        .social_icons{
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .social_icons i{
+            margin-left: 30px;
+            font-size: 35px;
+            color: #fff;
+            transition: .3s;
+            cursor: pointer;
+            
+        }
+        
+        .social_icons i:hover{
+            color: #cbcbcb;
+        }
+        
+        
+/* end of footer section */
+        
+        
+        
+        
+        
+        
+        
+        
+/*          MEDIA QUERIES        */
+        
+@media screen and (max-width:768px){
+            
+            .hero_section{
+                width: 95%;
+            }
+            
+            .hero_title{
+                font-size: 19px;
+                margin-top: 70px; 
+            }
+            
+            .hero_icons{
+                margin-top: 70px;
+                font-size: 14px;
+            }
+            
+            
+/* about section  */
+            .about_section h2{
+                font-size: 27px;
+            }
+            .about_section .about_img{
+                padding: 0px;
+            }
+            
+/* end of about section*/
+            
+          
+/* portfolio section */        
+    .portfolio_title .container{
+           width: 95%;
+        }
+    
+    
+
+/* end of portfolio section */ 
+    
+    
+    /* info section */
+        .info_content{
+            width: 95%;
+        }
+        
+        .info_content h2{
+            font-size: 33px;
+        }
+        
+        .info_content p{
+            font-size: 23px;
+        }
+/* end of info section */
+
+    }
